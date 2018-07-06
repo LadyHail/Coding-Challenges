@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace chessBoardCellColor
+/*
+ DESCRIPTION:
+ Given two cells on the standard chess board, determine whether they have the same color or not.
+ Example:
+ For cell1 = "A1" and cell2 = "C3", the output should be
+ chessBoardCellColor(cell1, cell2) = true.
+*/
+
+namespace Main.CodeFights
 {
-    class Program
+    public static class ChessBoardCellColor
     {
         public static bool chessBoardCellColor(string cell1, string cell2)
         {
@@ -35,14 +39,6 @@ namespace chessBoardCellColor
             bool result = black.Contains(cell1) ? black.Contains(cell2) : white.Contains(cell1) ? white.Contains(cell2) : false;
 
             return result;
-        }
-
-        static void Main(string[] args)
-        {
-            string c1 = "A1";
-            string c2 = "A2";
-            Console.WriteLine(chessBoardCellColor(c1, c2));
-            Console.ReadKey();
         }
     }
 }

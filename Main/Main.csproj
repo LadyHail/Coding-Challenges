@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C8F4C69-5660-47BF-A2CB-117730080A57}</ProjectGuid>
+    <ProjectGuid>{544B5EAA-1BF0-4B3F-8B96-F84F1DC81B05}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Counting_Duplicates</RootNamespace>
-    <AssemblyName>Counting Duplicates</AssemblyName>
+    <RootNamespace>Main</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CodeFights\AlphabeticShift.cs" />
+    <Compile Include="CodeFights\ArrayReplace.cs" />
+    <Compile Include="CodeFights\ChessBoardCellColor.cs" />
+    <Compile Include="CodeFights\CircleOfNumbers.cs" />
+    <Compile Include="CodeFights\StringsRearrangement.cs" />
+    <Compile Include="CodeFights\VariableName.cs" />
+    <Compile Include="CodeWars\CountingDuplicates.cs" />
+    <Compile Include="CodeFights\DepositProfit.cs" />
+    <Compile Include="CodeFights\ExtractEachKth.cs" />
+    <Compile Include="_Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -2,9 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace stringsRearrangement
+/*
+ DESCRIPTION:
+ Given an array of equal-length strings, check if it is possible to rearrange the strings in such a way that after the rearrangement the strings at consecutive positions would differ by exactly one character.
+ Example:
+ For inputArray = ["aba", "bbb", "bab"], the output should be
+ stringsRearrangement(inputArray) = false.
+ All rearrangements don't satisfy the description condition.
+ 
+ For inputArray = ["ab", "bb", "aa"], the output should be
+ stringsRearrangement(inputArray) = true.
+ Strings can be rearranged in the following way: "aa", "ab", "bb".
+*/
+
+namespace Main.CodeFights
 {
-    class Program
+    public static class StringsRearrangement
     {
         static bool stringsRearrangement(string[] inputArray)
         {
@@ -73,17 +86,6 @@ namespace stringsRearrangement
             string selected = input[index1];
             input[index1] = input[index2];
             input[index2] = selected;
-        }
-
-        static void Main(string[] args)
-        {
-            //string[] input = { "aba", "bbb", "bab" };
-            //string[] input = { "ab", "bb", "aa" };
-            //string[] input = {"abc", "bef", "bcc", "bec", "bbc", "bdc"};
-            //string[] input = { "abc", "bbc", "bcc", "bec", "bef", "bdc" };
-            string[] input = { "abc", "abx", "axx", "abx", "abc" };
-            Console.WriteLine(stringsRearrangement(input));
-            Console.ReadKey();
         }
     }
 }
