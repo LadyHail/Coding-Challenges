@@ -7,7 +7,9 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CircleOfNumbers.circleOfNumbers(10, 3));
+            int input = 555;
+
+            Console.WriteLine(DigitDegree.digitDegree(input));
             Console.ReadKey();
         }
     }

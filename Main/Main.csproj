@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,9 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodeFights\AlphabeticShift.cs" />
+    <Compile Include="CodeFights\ArrayMaxConsecutiveSum.cs" />
     <Compile Include="CodeFights\ArrayReplace.cs" />
     <Compile Include="CodeFights\ChessBoardCellColor.cs" />
     <Compile Include="CodeFights\CircleOfNumbers.cs" />
+    <Compile Include="CodeFights\DifferentSymbolsNaive.cs" />
+    <Compile Include="CodeFights\DigitDegree.cs" />
+    <Compile Include="CodeFights\FirstDigit.cs" />
+    <Compile Include="CodeFights\GrowingPlant.cs" />
+    <Compile Include="CodeFights\KnapsackLight.cs" />
+    <Compile Include="CodeFights\LongestDigitsPrefix.cs" />
     <Compile Include="CodeFights\StringsRearrangement.cs" />
     <Compile Include="CodeFights\VariableName.cs" />
     <Compile Include="CodeWars\CountingDuplicates.cs" />
