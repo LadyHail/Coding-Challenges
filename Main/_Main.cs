@@ -7,9 +7,9 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            int input = 555;
+            string input = "c2";
 
-            Console.WriteLine(DigitDegree.digitDegree(input));
+            Console.WriteLine(ChessKnight.chessKnight(input));
             Console.ReadKey();
         }
     }
