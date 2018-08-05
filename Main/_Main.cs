@@ -7,9 +7,9 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            string input = "c2";
+            string input = "";
 
-            Console.WriteLine(ChessKnight.chessKnight(input));
+            Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
         }
     }
