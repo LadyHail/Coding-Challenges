@@ -57,6 +57,7 @@
     <Compile Include="CodeFights\DigitDegree.cs" />
     <Compile Include="CodeFights\DigitsProduct.cs" />
     <Compile Include="CodeFights\ElectionsWinner.cs" />
+    <Compile Include="CodeFights\ExtraNumber.cs" />
     <Compile Include="CodeFights\FileNaming.cs" />
     <Compile Include="CodeFights\FindEmailDomain.cs" />
     <Compile Include="CodeFights\FirstDigit.cs" />
