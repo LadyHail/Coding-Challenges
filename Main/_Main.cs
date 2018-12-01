@@ -3,13 +3,13 @@ using Main.CodeFights;
 
 namespace Main
 {
-    class _Main
+    internal class _Main
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            string input = "";
+            WillYou.willYou(false, false, true);
 
-            Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
+            //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
         }
     }
