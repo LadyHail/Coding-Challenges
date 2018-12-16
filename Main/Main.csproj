@@ -72,6 +72,7 @@
     <Compile Include="CodeFights\LongestDigitsPrefix.cs" />
     <Compile Include="CodeFights\LongestWord.cs" />
     <Compile Include="CodeFights\MessageFromBinaryCode.cs" />
+    <Compile Include="CodeFights\MetroCard.cs" />
     <Compile Include="CodeFights\RemoveKFromList.cs" />
     <Compile Include="CodeFights\RotateImage.cs" />
     <Compile Include="CodeFights\StringsRearrangement.cs" />
