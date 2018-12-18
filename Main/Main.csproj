@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CodeFights\AlphabeticShift.cs" />
     <Compile Include="CodeFights\ArrayMaxConsecutiveSum.cs" />
+    <Compile Include="CodeFights\ArrayPacking.cs" />
     <Compile Include="CodeFights\ArrayReplace.cs" />
     <Compile Include="CodeFights\BishopAndPawn.cs" />
     <Compile Include="CodeFights\BuildPalindrome.cs" />
