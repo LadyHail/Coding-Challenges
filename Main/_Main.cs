@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            WillYou.willYou(false, false, true);
+            RangeBitCount.rangeBitCount(2, 7);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
