@@ -75,6 +75,7 @@
     <Compile Include="CodeFights\LongestWord.cs" />
     <Compile Include="CodeFights\MessageFromBinaryCode.cs" />
     <Compile Include="CodeFights\MetroCard.cs" />
+    <Compile Include="CodeFights\MirrorBits.cs" />
     <Compile Include="CodeFights\RangeBitCount.cs" />
     <Compile Include="CodeFights\RemoveKFromList.cs" />
     <Compile Include="CodeFights\RotateImage.cs" />

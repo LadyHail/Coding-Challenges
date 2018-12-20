@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            RangeBitCount.rangeBitCount(2, 7);
+            MirrorBits.mirrorBits(97);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
