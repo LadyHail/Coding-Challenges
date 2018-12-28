@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            MirrorBits.mirrorBits(97);
+            LeastFactorial.leastFactorial(17);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();

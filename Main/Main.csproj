@@ -53,11 +53,13 @@
     <Compile Include="CodeFights\ChessKnight.cs" />
     <Compile Include="CodeFights\CircleOfNumbers.cs" />
     <Compile Include="CodeFights\DeleteDigit.cs" />
+    <Compile Include="CodeFights\DifferentRightmostBit.cs" />
     <Compile Include="CodeFights\DifferentSquares.cs" />
     <Compile Include="CodeFights\DifferentSymbolsNaive.cs" />
     <Compile Include="CodeFights\DigitDegree.cs" />
     <Compile Include="CodeFights\DigitsProduct.cs" />
     <Compile Include="CodeFights\ElectionsWinner.cs" />
+    <Compile Include="CodeFights\EqualPairOfBits.cs" />
     <Compile Include="CodeFights\ExtraNumber.cs" />
     <Compile Include="CodeFights\FileNaming.cs" />
     <Compile Include="CodeFights\FindEmailDomain.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="CodeFights\IsMAC48Address.cs" />
     <Compile Include="CodeFights\KillKthBit.cs" />
     <Compile Include="CodeFights\KnapsackLight.cs" />
+    <Compile Include="CodeFights\LeastFactorial.cs" />
     <Compile Include="CodeFights\LineEncoding.cs" />
     <Compile Include="CodeFights\LongestDigitsPrefix.cs" />
     <Compile Include="CodeFights\LongestWord.cs" />
@@ -79,9 +82,11 @@
     <Compile Include="CodeFights\RangeBitCount.cs" />
     <Compile Include="CodeFights\RemoveKFromList.cs" />
     <Compile Include="CodeFights\RotateImage.cs" />
+    <Compile Include="CodeFights\SecondRightmostZeroBit.cs" />
     <Compile Include="CodeFights\StringsRearrangement.cs" />
     <Compile Include="CodeFights\Sudoku2.cs" />
     <Compile Include="CodeFights\SumUpNumbers.cs" />
+    <Compile Include="CodeFights\SwapAdjacentBits.cs" />
     <Compile Include="CodeFights\ValidTime.cs" />
     <Compile Include="CodeFights\VariableName.cs" />
     <Compile Include="CodeFights\WillYou.cs" />
