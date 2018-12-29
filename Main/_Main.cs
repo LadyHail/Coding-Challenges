@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            LeastFactorial.leastFactorial(17);
+            CountSumOfTwoRepresentations2.countSumOfTwoRepresentations2(6, 2, 4);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
