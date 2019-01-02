@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeFights\AdditionWithoutCarrying.cs" />
     <Compile Include="CodeFights\AlphabeticShift.cs" />
+    <Compile Include="CodeFights\AppleBoxes.cs" />
     <Compile Include="CodeFights\ArrayMaxConsecutiveSum.cs" />
     <Compile Include="CodeFights\ArrayPacking.cs" />
     <Compile Include="CodeFights\ArrayReplace.cs" />
@@ -75,8 +77,10 @@
     <Compile Include="CodeFights\KnapsackLight.cs" />
     <Compile Include="CodeFights\LeastFactorial.cs" />
     <Compile Include="CodeFights\LineEncoding.cs" />
+    <Compile Include="CodeFights\Lineup.cs" />
     <Compile Include="CodeFights\LongestDigitsPrefix.cs" />
     <Compile Include="CodeFights\LongestWord.cs" />
+    <Compile Include="CodeFights\MagicalWell.cs" />
     <Compile Include="CodeFights\MessageFromBinaryCode.cs" />
     <Compile Include="CodeFights\MetroCard.cs" />
     <Compile Include="CodeFights\MirrorBits.cs" />

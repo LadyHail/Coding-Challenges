@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            CountSumOfTwoRepresentations2.countSumOfTwoRepresentations2(6, 2, 4);
+            AppleBoxes.appleBoxes(5);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
