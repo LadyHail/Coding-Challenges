@@ -70,6 +70,7 @@
     <Compile Include="CodeFights\FirstDuplicate.cs" />
     <Compile Include="CodeFights\FirstNotRepeatingCharacter.cs" />
     <Compile Include="CodeFights\GrowingPlant.cs" />
+    <Compile Include="CodeFights\IncreaseNumberRoundness.cs" />
     <Compile Include="CodeFights\IsBeautifulString.cs" />
     <Compile Include="CodeFights\IsCryptSolution.cs" />
     <Compile Include="CodeFights\IsMAC48Address.cs" />
