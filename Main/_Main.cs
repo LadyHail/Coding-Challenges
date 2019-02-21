@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            Rounders.rounders(1445);
+            CountBlackCells.countBlackCells(3, 4);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();

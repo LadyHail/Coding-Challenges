@@ -51,9 +51,11 @@
     <Compile Include="CodeFights\ArrayReplace.cs" />
     <Compile Include="CodeFights\BishopAndPawn.cs" />
     <Compile Include="CodeFights\BuildPalindrome.cs" />
+    <Compile Include="CodeFights\Candles.cs" />
     <Compile Include="CodeFights\ChessBoardCellColor.cs" />
     <Compile Include="CodeFights\ChessKnight.cs" />
     <Compile Include="CodeFights\CircleOfNumbers.cs" />
+    <Compile Include="CodeFights\CountBlackCells.cs" />
     <Compile Include="CodeFights\CountSumOfTwoRepresentations2.cs" />
     <Compile Include="CodeFights\DeleteDigit.cs" />
     <Compile Include="CodeFights\DifferentRightmostBit.cs" />
