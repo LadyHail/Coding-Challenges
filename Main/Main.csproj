@@ -57,6 +57,7 @@
     <Compile Include="CodeFights\CircleOfNumbers.cs" />
     <Compile Include="CodeFights\CountBlackCells.cs" />
     <Compile Include="CodeFights\CountSumOfTwoRepresentations2.cs" />
+    <Compile Include="CodeFights\CreateArray.cs" />
     <Compile Include="CodeFights\DeleteDigit.cs" />
     <Compile Include="CodeFights\DifferentRightmostBit.cs" />
     <Compile Include="CodeFights\DifferentSquares.cs" />

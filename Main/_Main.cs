@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            CountBlackCells.countBlackCells(3, 4);
+            CreateArray.createArray(4);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
