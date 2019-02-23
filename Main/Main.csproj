@@ -72,6 +72,7 @@
     <Compile Include="CodeFights\FirstDigit.cs" />
     <Compile Include="CodeFights\FirstDuplicate.cs" />
     <Compile Include="CodeFights\FirstNotRepeatingCharacter.cs" />
+    <Compile Include="CodeFights\FirstReverseTry.cs" />
     <Compile Include="CodeFights\GrowingPlant.cs" />
     <Compile Include="CodeFights\IncreaseNumberRoundness.cs" />
     <Compile Include="CodeFights\IsBeautifulString.cs" />
