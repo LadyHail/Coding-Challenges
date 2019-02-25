@@ -55,6 +55,7 @@
     <Compile Include="CodeFights\ChessBoardCellColor.cs" />
     <Compile Include="CodeFights\ChessKnight.cs" />
     <Compile Include="CodeFights\CircleOfNumbers.cs" />
+    <Compile Include="CodeFights\ConcatenateArrays.cs" />
     <Compile Include="CodeFights\CountBlackCells.cs" />
     <Compile Include="CodeFights\CountSumOfTwoRepresentations2.cs" />
     <Compile Include="CodeFights\CreateArray.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="CodeFights\MetroCard.cs" />
     <Compile Include="CodeFights\MirrorBits.cs" />
     <Compile Include="CodeFights\RangeBitCount.cs" />
+    <Compile Include="CodeFights\RemoveArrayPart.cs" />
     <Compile Include="CodeFights\RemoveKFromList.cs" />
     <Compile Include="CodeFights\RotateImage.cs" />
     <Compile Include="CodeFights\Rounders.cs" />
