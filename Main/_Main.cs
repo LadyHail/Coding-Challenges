@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            IsSmooth.isSmooth(new int[] { 7, 2, 2, 5, 10, 7 });
+            ReplaceMiddle.replaceMiddle(new int[] { 2, 8 });
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();

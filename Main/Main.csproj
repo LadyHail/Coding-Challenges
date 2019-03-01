@@ -94,6 +94,7 @@
     <Compile Include="CodeFights\RangeBitCount.cs" />
     <Compile Include="CodeFights\RemoveArrayPart.cs" />
     <Compile Include="CodeFights\RemoveKFromList.cs" />
+    <Compile Include="CodeFights\ReplaceMiddle.cs" />
     <Compile Include="CodeFights\RotateImage.cs" />
     <Compile Include="CodeFights\Rounders.cs" />
     <Compile Include="CodeFights\SecondRightmostZeroBit.cs" />
