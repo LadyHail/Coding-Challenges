@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            ReplaceMiddle.replaceMiddle(new int[] { 2, 8 });
+            MakeArrayConsecutive2.makeArrayConsecutive2(new int[] { 6, 2, 3, 8 });
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
