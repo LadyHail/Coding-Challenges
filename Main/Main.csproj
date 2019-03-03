@@ -79,6 +79,7 @@
     <Compile Include="CodeFights\IsBeautifulString.cs" />
     <Compile Include="CodeFights\IsCryptSolution.cs" />
     <Compile Include="CodeFights\IsMAC48Address.cs" />
+    <Compile Include="CodeFights\IsPower.cs" />
     <Compile Include="CodeFights\IsSmooth.cs" />
     <Compile Include="CodeFights\KillKthBit.cs" />
     <Compile Include="CodeFights\KnapsackLight.cs" />

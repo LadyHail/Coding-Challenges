@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            MakeArrayConsecutive2.makeArrayConsecutive2(new int[] { 6, 2, 3, 8 });
+            IsPower.isPower(100);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
