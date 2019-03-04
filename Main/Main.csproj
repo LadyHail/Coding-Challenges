@@ -81,6 +81,7 @@
     <Compile Include="CodeFights\IsMAC48Address.cs" />
     <Compile Include="CodeFights\IsPower.cs" />
     <Compile Include="CodeFights\IsSmooth.cs" />
+    <Compile Include="CodeFights\IsSumOfConsecutive2.cs" />
     <Compile Include="CodeFights\KillKthBit.cs" />
     <Compile Include="CodeFights\KnapsackLight.cs" />
     <Compile Include="CodeFights\LeastFactorial.cs" />

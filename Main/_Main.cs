@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            IsPower.isPower(100);
+            IsSumOfConsecutive2.isSumOfConsecutive2(15);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
