@@ -1,5 +1,5 @@
 ﻿using System;
-using Main.CodeFights;
+using Main.Codility;
 
 namespace Main
 {
@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            IsSumOfConsecutive2.isSumOfConsecutive2(15);
+            BinaryGap.binaryGap(1041);
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();

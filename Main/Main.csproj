@@ -108,9 +108,9 @@
     <Compile Include="CodeFights\ValidTime.cs" />
     <Compile Include="CodeFights\VariableName.cs" />
     <Compile Include="CodeFights\WillYou.cs" />
-    <Compile Include="CodeWars\CountingDuplicates.cs" />
     <Compile Include="CodeFights\DepositProfit.cs" />
     <Compile Include="CodeFights\ExtractEachKth.cs" />
+    <Compile Include="Codility\BinaryGap.cs" />
     <Compile Include="_Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
