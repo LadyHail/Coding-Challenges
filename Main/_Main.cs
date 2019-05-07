@@ -7,7 +7,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            BinaryGap.binaryGap(1041);
+            Niobium2019.Solve(new int[][] { new int[] { 0, 0, 0, 0 }, new int[] { 0, 1, 0, 0 }, new int[] { 1, 0, 1, 1 } });
 
             //Console.WriteLine(MessageFromBinaryCode.messageFromBinaryCode(input));
             Console.ReadKey();
