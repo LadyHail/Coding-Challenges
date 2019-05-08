@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 /*
@@ -31,7 +31,7 @@ namespace Main.CodeFights
 {
     public static class IsSmooth
     {
-        public static bool isSmooth(int[] arr)
+        public static bool Solve(int[] arr)
         {
             int middle = (arr.Length / 2);
             if (arr.Length % 2 != 0)

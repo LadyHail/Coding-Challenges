@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION: 
@@ -19,7 +19,7 @@ namespace Main.CodeFights
 {
     public static class ArrayMaxConsecutiveSum
     {
-        public static int arrayMaxConsecutiveSum(int[] inputArray, int k)
+        public static int Solve(int[] inputArray, int k)
         {
             int sum = 0;
             int curr = 0;

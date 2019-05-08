@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 
 /*
@@ -16,7 +16,7 @@ namespace Main.CodeFights
 {
     public static class FileNaming
     {
-        public static string[] fileNaming(string[] names)
+        public static string[] Solve(string[] names)
         {
             HashSet<string> temp = new HashSet<string>();
 

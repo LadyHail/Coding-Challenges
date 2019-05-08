@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 /*
  DESCRIPTION: 
@@ -17,7 +17,7 @@ namespace Main.CodeFights
 {
     public static class MessageFromBinaryCode
     {
-        public static string messageFromBinaryCode(string code)
+        public static string Solve(string code)
         {
             string r = "";
             for (int i = 0; i < code.Length; i = i + 8)

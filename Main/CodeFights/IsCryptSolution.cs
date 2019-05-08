@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 /*
@@ -35,7 +35,7 @@ namespace Main.CodeFights
 {
     public static class IsCryptSolution
     {
-        public static bool isCryptSolution(string[] crypt, char[][] solution)
+        public static bool Solve(string[] crypt, char[][] solution)
         {
             double sum = 0;
 

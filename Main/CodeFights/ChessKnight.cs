@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Given a position of a knight on the standard chessboard, find the number of different moves the knight can perform.
  The knight can move to a square that is two squares horizontally and one square vertically, or two squares vertically 
@@ -17,7 +17,7 @@ namespace Main.CodeFights
 {
     public static class ChessKnight
     {
-        public static int chessKnight(string cell)
+        public static int Solve(string cell)
         {
             int count = 0;
             if (cell[0] - 2 >= 97 && char.GetNumericValue(cell[1]) - 1 >= 1) count++;

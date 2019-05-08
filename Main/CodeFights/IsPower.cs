@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  Determine if the given number is a power of some non-negative integer.
 
@@ -15,7 +15,7 @@ namespace Main.CodeFights
 {
     public static class IsPower
     {
-        public static bool isPower(int n)
+        public static bool Solve(int n)
         {
             for (int i = 1; i < 21; i++)
             {

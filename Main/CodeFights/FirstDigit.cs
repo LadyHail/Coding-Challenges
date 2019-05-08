@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 /*
@@ -17,7 +17,7 @@ namespace Main.CodeFights
 {
     public static class FirstDigit
     {
-        public static char firstDigit(string inputString)
+        public static char Solve(string inputString)
         {
             return inputString.FirstOrDefault(x => Char.IsDigit(x));
         }

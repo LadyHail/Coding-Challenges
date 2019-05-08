@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION:
@@ -20,7 +20,7 @@ namespace Main.CodeFights
 {
     public static class ElectionsWinner
     {
-        public static int electionsWinners(int[] votes, int k)
+        public static int Solves(int[] votes, int k)
         {
             int max = votes.Max();
 

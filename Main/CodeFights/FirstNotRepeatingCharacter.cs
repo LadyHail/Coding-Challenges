@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION:
@@ -20,7 +20,7 @@ namespace Main.CodeFights
 {
     public static class FirstNotRepeatingCharacter
     {
-        public static char firstNotRepeatingCharacter(string s)
+        public static char Solve(string s)
         {
             var onlyOnce = s.GroupBy(x => x).Select(x => new { Key = x.Key, Count = x.Count() }).Where(x => x.Count == 1).FirstOrDefault()?.Key;
 

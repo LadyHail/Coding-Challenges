@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  Given some integer, find the maximal number you can obtain by deleting exactly one digit of the given number.
  Example
@@ -15,7 +15,7 @@ namespace Main.CodeFights
 {
     public static class DeleteDigit
     {
-        public static int deleteDigit(int n)
+        public static int Solve(int n)
         {
             string s = n.ToString();
             int i = 0;

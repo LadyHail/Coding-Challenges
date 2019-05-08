@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  Imagine a white rectangular grid of n rows and m columns divided into two parts by
  a diagonal line running from the upper left to the lower right corner. Now let's paint
@@ -39,7 +39,7 @@ namespace Main.CodeFights
             return n;
         }
 
-        public static int countBlackCells(int n, int m)
+        public static int Solve(int n, int m)
         {
             if (n == m)
             {

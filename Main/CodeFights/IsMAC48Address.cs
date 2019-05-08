@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 
 /*
  DESCRIPTION: 
@@ -18,7 +18,7 @@ namespace Main.CodeFights
 {
     public static class IsMAC48Address
     {
-        public static bool isMAC48Address(string inputString)
+        public static bool Solve(string inputString)
         {
             string[] s = inputString.Split('-');
 

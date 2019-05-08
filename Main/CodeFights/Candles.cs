@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  When a candle finishes burning it leaves a leftover. makeNew leftovers can be 
  combined to make a new candle, which, when burning down, will in turn leave another leftover.
@@ -27,7 +27,7 @@ namespace Main.CodeFights
 {
     public static class Candles
     {
-        public static int candles(int candlesNumber, int makeNew)
+        public static int Solve(int candlesNumber, int makeNew)
         {
             int sum = candlesNumber;
             int leftovers = candlesNumber;

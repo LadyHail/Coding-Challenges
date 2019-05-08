@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION: 
@@ -30,7 +30,7 @@ namespace Main.CodeFights
 {
     public static class ReplaceMiddle
     {
-        public static int[] replaceMiddle(int[] arr)
+        public static int[] Solve(int[] arr)
         {
             int middle = (arr.Length / 2);
             if (arr.Length % 2 != 0)

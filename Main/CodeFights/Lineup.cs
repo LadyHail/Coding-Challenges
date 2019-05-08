@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  To prepare his students for an upcoming game, the sports coach decides to try some new training drills. 
  To begin with, he lines them up and starts with the following warm-up exercise: when the coach says 'L', 
@@ -25,7 +25,7 @@ namespace Main.CodeFights
 {
     public static class Lineup
     {
-        public static int lineUp(string commands)
+        public static int Solve(string commands)
         {
             int count = 0;
             bool pair = true;

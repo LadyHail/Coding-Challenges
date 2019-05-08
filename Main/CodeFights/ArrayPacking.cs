@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  You are given an array of up to four non-negative integers, each less than 256.
  Your task is to pack these integers into one number M in the following way:
@@ -23,7 +23,7 @@ namespace Main.CodeFights
 {
     public static class ArrayPacking
     {
-        public static int arrayPacking(int[] a)
+        public static int Solve(int[] a)
         {
             int r = 0;
             for (int i = 0; i < a.Length; i++)

@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION:
@@ -13,7 +13,7 @@ namespace Main.CodeFights
 {
     public static class DifferentSymbolsNaive
     {
-        public static int differentSymbolsNaive(string s)
+        public static int Solve(string s)
         {
             return s.GroupBy(x => x).Count();
         }

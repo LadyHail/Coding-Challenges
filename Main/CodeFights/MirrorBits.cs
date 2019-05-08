@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -20,7 +20,7 @@ namespace Main.CodeFights
 {
     public static class MirrorBits
     {
-        public static int mirrorBits(int a)
+        public static int Solve(int a)
         {
             string b = Convert.ToString(a, 2);
             IEnumerable<char> c = b.Reverse();

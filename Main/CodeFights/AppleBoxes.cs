@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  You have k apple boxes full of apples. Each square box of size m contains m × m apples. 
  You just noticed two interesting properties about the boxes:
@@ -20,7 +20,7 @@ namespace Main.CodeFights
 {
     public static class AppleBoxes
     {
-        public static int appleBoxes(int k)
+        public static int Solve(int k)
         {
             int odd = 1;
             int even = 0;

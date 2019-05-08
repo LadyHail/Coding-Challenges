@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION: 
@@ -14,7 +14,7 @@ namespace Main.CodeFights
 {
     public static class CreateArray
     {
-        public static int[] createArray(int size)
+        public static int[] Solve(int size)
         {
             return Enumerable.Repeat(1, size).ToArray();
         }

@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION: 
@@ -37,7 +37,7 @@ namespace Main.CodeFights
 {
     public static class Sudoku2
     {
-        public static bool sudoku2(char[][] grid)
+        public static bool Solve(char[][] grid)
         {
             int[] numbers = Enumerable.Range(0, 9).ToArray();
             for (int i = 0; i < 9; i++)

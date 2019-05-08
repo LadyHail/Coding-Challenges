@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to k.
  Example
@@ -20,15 +20,19 @@ namespace Main.CodeFights
 
     public static class RemoveKFromList
     {
-        public static ListNode<int> removeKFromList(ListNode<int> l, int k)
+        public static ListNode<int> Solve(ListNode<int> l, int k)
         {
             if (l == null)
+            {
                 return null;
+            }
 
             if (l.value == k)
-                return removeKFromList(l.next, k);
+            {
+                return Solve(l.next, k);
+            }
 
-            l.next = removeKFromList(l.next, k);
+            l.next = Solve(l.next, k);
             return l;
         }
     }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 /*
  DESCRIPTION:
@@ -10,7 +10,7 @@ namespace Main.CodeFights
 {
     public static class BishopAndPawn
     {
-        public static bool bishopAndPawn(string bishop, string pawn)
+        public static bool Solve(string bishop, string pawn)
         {
             return Math.Abs(bishop[0] - pawn[0]) == Math.Abs(bishop[1] - pawn[1]);
         }

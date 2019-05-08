@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Given a string, find the shortest possible string which can be achieved by adding characters to the end of initial string to make it a palindrome.
  Example
@@ -26,7 +26,7 @@ namespace Main.CodeFights
                 return s.Substring(0, s.Length / 2) == Reverse(s.Substring(s.Length / 2 + 1));
         }
 
-        public static string buildPalindrome(string st)
+        public static string Solve(string st)
         {
             for (int i = 0; i < st.Length; i++)
             {

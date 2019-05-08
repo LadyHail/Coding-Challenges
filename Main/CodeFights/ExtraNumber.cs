@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  You're given three integers, a, b and c. It is guaranteed that two of these integers 
  are equal to each other. What is the value of the third integer?
@@ -12,7 +12,7 @@ namespace Main.CodeFights
 {
     public static class ExtraNumber
     {
-        public static int extraNumber(int a, int b, int c)
+        public static int Solve(int a, int b, int c)
         {
             return a == b ? c : a == c ? b : b == c ? a : 0;
         }

@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.
  Presented with the integer n, find the 0-based position of the second rightmost zero bit 
@@ -17,7 +17,7 @@ namespace Main.CodeFights
 {
     public static class SecondRightmostZeroBit
     {
-        public static int secondRightmostZeroBit(int n)
+        public static int Solve(int n)
         {
             return (~(n | (n + 1))) & ((n | (n + 1)) + 1);
         }

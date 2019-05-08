@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION:
@@ -18,7 +18,7 @@ namespace Main.CodeFights
 {
     public static class IsBeautifulString
     {
-        public static bool isBeautifulString(string inputString)
+        public static bool Solve(string inputString)
         {
             var sorted = Enumerable.Range('a', inputString.Max(c => c) - 'a' + 1).Select(i => (char)i).ToArray();
             for (var i = 1; i < sorted.Length; i++)

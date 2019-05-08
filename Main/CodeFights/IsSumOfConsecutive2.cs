@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  Find the number of ways to express n as sum of some (at least two) consecutive positive integers.
 
@@ -19,7 +19,7 @@ namespace Main.CodeFights
 {
     public static class IsSumOfConsecutive2
     {
-        public static int isSumOfConsecutive2(int n)
+        public static int Solve(int n)
         {
             int result = 0;
 

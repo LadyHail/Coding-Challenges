@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Each day a plant is growing by upSpeed meters. Each night that plant's height decreases by downSpeed meters due to the lack of sun heat. 
  Initially, plant is 0 meters tall. We plant the seed at the beginning of a day. 
@@ -12,7 +12,7 @@ namespace Main.CodeFights
 {
     public static class GrowingPlant
     {
-        public static int growingPlant(int upSpeed, int downSpeed, int desiredHeight)
+        public static int Solve(int upSpeed, int downSpeed, int desiredHeight)
         {
             int days = 0;
             int height = 0;

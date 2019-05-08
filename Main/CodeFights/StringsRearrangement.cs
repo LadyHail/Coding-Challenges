@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -19,7 +19,7 @@ namespace Main.CodeFights
 {
     public static class StringsRearrangement
     {
-        static bool stringsRearrangement(string[] inputArray)
+        static bool Solve(string[] inputArray)
         {
             IEnumerable<IEnumerable<string>> permutations = GetPermutations(inputArray.ToList());
 

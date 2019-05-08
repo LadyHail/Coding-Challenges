@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Given integers n, l and r, find the number of ways to represent n as a 
  sum of two integers A and B such that l ≤ A ≤ B ≤ r.
@@ -14,7 +14,7 @@ namespace Main.CodeFights
 {
     public static class CountSumOfTwoRepresentations2
     {
-        public static int countSumOfTwoRepresentations2(int n, int l, int r)
+        public static int Solve(int n, int l, int r)
         {
             int count = 0;
 

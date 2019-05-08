@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Given a string, output its longest prefix which contains only digits.
  Example:
@@ -14,7 +14,7 @@ namespace Main.CodeFights
 {
     public static class LongestDigitsPrefix
     {
-        public static string longestDigitsPrefix(string inputString)
+        public static string Solve(string inputString)
         {
             List<string> list = new List<string>();
             string current = "";

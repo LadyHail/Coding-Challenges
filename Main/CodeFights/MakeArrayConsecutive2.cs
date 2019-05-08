@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION: 
@@ -20,7 +20,7 @@ namespace Main.CodeFights
 {
     public static class MakeArrayConsecutive2
     {
-        public static int makeArrayConsecutive2(int[] statues)
+        public static int Solve(int[] statues)
         {
             int result = 0;
 

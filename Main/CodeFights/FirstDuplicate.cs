@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 /*
  DESCRIPTION:
@@ -17,7 +17,7 @@ namespace Main.CodeFights
 {
     public static class FirstDuplicate
     {
-        public static int firstDuplicate(int[] a)
+        public static int Solve(int[] a)
         {
             HashSet<int> list = new HashSet<int>();
             foreach (int num in a)

@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 /*
  DESCRIPTION: 
@@ -14,7 +14,7 @@ namespace Main.CodeFights
 {
     public static class DigitsProduct
     {
-        public static int digitsProduct(int product)
+        public static int Solve(int product)
         {
             List<int> list = new List<int>();
             int sum = 0;

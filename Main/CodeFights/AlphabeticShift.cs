@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 /*
@@ -13,7 +13,7 @@ namespace Main.CodeFights
 {
     public static class AlphabeticShift
     {
-        public static string alphabeticShift(string inputString)
+        public static string Solve(string inputString)
         {
             return new String(inputString.Select(c => c == 122 ? (char)97 : (char)(c + 1)).ToArray());
         }

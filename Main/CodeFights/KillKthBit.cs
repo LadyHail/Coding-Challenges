@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  In order to stop the Mad Coder evil genius you need to decipher the encrypted message he sent to his minions.
  The message contains several numbers that, when typed into a supercomputer, will launch a missile into the 
@@ -24,7 +24,7 @@ namespace Main.CodeFights
 {
     public static class KillKthBit
     {
-        public static int killKthBit(int n, int k)
+        public static int Solve(int n, int k)
         {
             return n & ~(1 << (k - 1));
         }

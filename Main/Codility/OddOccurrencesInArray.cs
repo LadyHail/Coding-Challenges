@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Main.Codility
 {
     public static class OddOccurrencesInArray
     {
-        public static int oddOccurrencesInArray(int[] A)
+        public static int Solve(int[] A)
         {
             HashSet<int> b = new HashSet<int>();
 

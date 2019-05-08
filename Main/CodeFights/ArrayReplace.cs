@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION: 
@@ -12,7 +12,7 @@ namespace Main.CodeFights
 {
     public static class ArrayReplace
     {
-        public static int[] arrayReplace(int[] inputArray, int elemToReplace, int substitutionElem)
+        public static int[] Solve(int[] inputArray, int elemToReplace, int substitutionElem)
         {
             int[] result = inputArray.Select(e => e == elemToReplace ? substitutionElem : e).ToArray();
             return result;

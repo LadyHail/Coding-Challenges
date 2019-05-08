@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text.RegularExpressions;
 
 /*
@@ -18,7 +18,7 @@ namespace Main.CodeFights
 {
     public static class VariableName
     {
-        public static bool variableName(string name)
+        public static bool Solve(string name)
         {
             if (Char.IsDigit(name[0]))
             {

@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 /*
  DESCRIPTION: 
@@ -13,7 +13,7 @@ namespace Main.CodeFights
 {
     public static class ConcatenateArrays
     {
-        public static int[] concatenateArrays(int[] a, int[] b)
+        public static int[] Solve(int[] a, int[] b)
         {
             return a.Concat(b).ToArray();
         }

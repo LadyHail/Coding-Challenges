@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 
@@ -15,7 +15,7 @@ namespace Main.CodeFights
 {
     public static class SumUpNumbers
     {
-        public static int sumUpNumbers(string inputString)
+        public static int Solve(string inputString)
         {
             Regex reg = new Regex(@"([0-9])+");
             int counter = 0;

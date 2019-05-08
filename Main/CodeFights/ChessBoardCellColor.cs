@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 /*
  DESCRIPTION:
@@ -12,7 +12,7 @@ namespace Main.CodeFights
 {
     public static class ChessBoardCellColor
     {
-        public static bool chessBoardCellColor(string cell1, string cell2)
+        public static bool Solve(string cell1, string cell2)
         {
             List<string> black = new List<string>();
             List<string> white = new List<string>();

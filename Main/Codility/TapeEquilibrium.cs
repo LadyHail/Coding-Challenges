@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Linq;
 
 namespace Main.Codility
 {
     public static class TapeEquilibrium
     {
-        public static int tapeEquilibrium(int[] A)
+        public static int Solve(int[] A)
         {
             int result = int.MaxValue;
             int sumRight = A.Sum();

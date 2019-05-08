@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.
 
@@ -29,7 +29,7 @@ namespace Main.CodeFights
 {
     public static class DifferentRightmostBit
     {
-        public static int differentRightmostBit(int n, int m)
+        public static int Solve(int n, int m)
         {
             return (n ^ m) & (-(n ^ m));
         }

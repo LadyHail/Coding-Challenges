@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  A little boy is studying arithmetics. He has just learned how to add two integers, 
  written one below another, column by column. But he always forgets about the important part - carrying.
@@ -32,7 +32,7 @@ namespace Main.CodeFights
 {
     public static class AdditionWithoutCarrying
     {
-        public static int additionWithoutCarrying(int param1, int param2)
+        public static int Solve(int param1, int param2)
         {
             string p1 = param1.ToString();
             string p2 = param2.ToString();

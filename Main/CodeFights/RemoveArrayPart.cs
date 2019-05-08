@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  Remove a part of a given array between given 0-based indexes l and r (inclusive).
 
@@ -13,7 +13,7 @@ namespace Main.CodeFights
 {
     public static class RemoveArrayPart
     {
-        public static int[] removeArrayPart(int[] inputArray, int l, int r)
+        public static int[] Solve(int[] inputArray, int l, int r)
         {
             return inputArray.Where((x, y) => y < l || y > r).ToArray();
         }

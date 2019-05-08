@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Given a rectangular matrix containing only digits, calculate the number of different 2 × 2 squares in it.
  Example
@@ -17,7 +17,7 @@ namespace Main.CodeFights
 {
     public static class DifferentSquares
     {
-        public static int differentSquares(int[][] matrix)
+        public static int Solve(int[][] matrix)
         {
             HashSet<string> s = new HashSet<string>();
 

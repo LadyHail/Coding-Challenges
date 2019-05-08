@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Define an integer's roundness as the number of trailing zeroes in it.
 
@@ -23,7 +23,7 @@ namespace Main.CodeFights
 {
     public static class IncreaseNumberRoundness
     {
-        public static bool increaseNumberRoundness(int n)
+        public static bool Solve(int n)
         {
             return n.ToString().TrimEnd('0').Contains("0");
         }

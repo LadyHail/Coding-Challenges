@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 
 /*
  DESCRIPTION:
@@ -12,7 +12,7 @@ namespace Main.CodeFights
 {
     public static class LongestWord
     {
-        public static string longestWord(string text)
+        public static string Solve(string text)
         {
             Regex reg = new Regex(@"([A-Za-z])+");
             var matches = reg.Matches(text);

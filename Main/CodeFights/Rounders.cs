@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  We want to turn the given integer into a number that has only one non-zero digit using 
  a tail rounding approach. This means that at each step we take the last non 0 digit of 
@@ -29,7 +29,7 @@ namespace Main.CodeFights
 {
     public static class Rounders
     {
-        public static int rounders(int n)
+        public static int Solve(int n)
         {
             int div = 10;
             while (n > div)

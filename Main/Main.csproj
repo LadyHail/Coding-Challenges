@@ -113,10 +113,17 @@
     <Compile Include="Codility\BinaryGap.cs" />
     <Compile Include="Codility\CyclicRotation.cs" />
     <Compile Include="Codility\FrogJmp.cs" />
-    <Compile Include="Codility\Niobium2019.cs" />
+    <Compile Include="Codility\FrogRiverOne.cs" />
+    <Compile Include="Codility\MaxCounters.cs" />
+    <Compile Include="Codility\MissingInteger.cs" />
     <Compile Include="Codility\OddOccurrencesInArray.cs" />
+    <Compile Include="Codility\PassingCars.cs" />
+    <Compile Include="Codility\PermCheck.cs" />
     <Compile Include="Codility\PermMissingElem.cs" />
     <Compile Include="Codility\TapeEquilibrium.cs" />
+    <Compile Include="TestDome\BinaryTree.cs" />
+    <Compile Include="TestDome\Song.cs" />
+    <Compile Include="TestDome\TwoSum.cs" />
     <Compile Include="_Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

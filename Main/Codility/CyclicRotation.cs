@@ -1,8 +1,8 @@
-﻿namespace Main.Codility
+namespace Main.Codility
 {
     public static class CyclicRotation
     {
-        public static int[] cyclicRotation(int[] A, int K)
+        public static int[] Solve(int[] A, int K)
         {
             if (A.Length < 2)
             {

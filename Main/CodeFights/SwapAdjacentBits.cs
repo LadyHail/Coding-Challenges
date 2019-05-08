@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.
  You're given an arbitrary 32-bit integer n. Take its binary representation, split bits into 
@@ -25,7 +25,7 @@ namespace Main.CodeFights
 {
     public static class SwapAdjacentBits
     {
-        public static int swapAdjacentBits(int n)
+        public static int Solve(int n)
         {
             return (((n & 0x2AAAAAAA) >> 1) | ((n & 0x15555555) << 1));
         }

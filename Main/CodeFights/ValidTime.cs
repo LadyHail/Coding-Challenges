@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +20,7 @@ namespace Main.CodeFights
 {
     public static class ValidTime
     {
-        public static bool validTime(string time)
+        public static bool Solve(string time)
         {
             try
             {

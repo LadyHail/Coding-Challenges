@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Given a string, return its encoding defined as follows:
  First, the string is divided into the least possible number of disjoint substrings consisting of identical characters
@@ -15,7 +15,7 @@ namespace Main.CodeFights
 {
     public static class LineEncoding
     {
-        public static string lineEncoding(string s)
+        public static string Solve(string s)
         {
             char current = new char();
             char temp = new char();

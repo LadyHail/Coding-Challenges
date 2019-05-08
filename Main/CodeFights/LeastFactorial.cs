@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  Given an integer n, find the minimal k such that
 
@@ -19,7 +19,7 @@ namespace Main.CodeFights
 {
     public static class LeastFactorial
     {
-        public static int leastFactorial(int n)
+        public static int Solve(int n)
         {
             int result = 1;
             for (int i = 2; result < n; i++)

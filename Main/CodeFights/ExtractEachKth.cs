@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 /*
@@ -13,7 +13,7 @@ namespace Main.CodeFights
 {
     public static class ExtractEachKth
     {
-        public static int[] extractEachKth(int[] inputArray, int k)
+        public static int[] Solve(int[] inputArray, int k)
         {
             if (k == 1)
             {

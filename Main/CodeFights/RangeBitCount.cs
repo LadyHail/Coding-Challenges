@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 /*
@@ -19,7 +19,7 @@ namespace Main.CodeFights
 {
     public static class RangeBitCount
     {
-        public static int rangeBitCount(int a, int b)
+        public static int Solve(int a, int b)
         {
             int count = 0;
             for (int i = a; i <= b; i++)

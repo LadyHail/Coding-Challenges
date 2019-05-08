@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  You just bought a public transit card that allows you to ride the Metro for a certain number of days.
  Here is how it works: upon first receiving the card, the system allocates you a 31-day pass, which equals 
@@ -22,7 +22,7 @@ namespace Main.CodeFights
 {
     public static class MetroCard
     {
-        public static int[] metroCard(int lastNumberOfDays)
+        public static int[] Solve(int lastNumberOfDays)
         {
             return lastNumberOfDays == 28 || lastNumberOfDays == 30 ? new int[] { 31 } : new int[] { 28, 30, 31 };
         }

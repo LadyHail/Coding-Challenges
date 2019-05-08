@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION: 
  Reversing an array can be a tough task, especially for a novice programmer. Mary just started coding, 
  so she would like to start with something basic at first. Instead of reversing the array entirely, 
@@ -18,7 +18,7 @@ namespace Main.CodeFights
 {
     public static class FirstReverseTry
     {
-        public static int[] firstReverseTry(int[] arr)
+        public static int[] Solve(int[] arr)
         {
             if (arr.Length != 0)
             {

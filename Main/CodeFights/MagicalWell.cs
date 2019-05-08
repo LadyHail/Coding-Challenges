@@ -1,4 +1,4 @@
-﻿/*
+/*
  DESCRIPTION:
  You are standing at a magical well. It has two positive integers written on it: a and b. 
  Each time you cast a magic marble into the well, it gives you a * b dollars and then both 
@@ -16,7 +16,7 @@ namespace Main.CodeFights
 {
     public static class MagicalWell
     {
-        public static int magicalWell(int a, int b, int n)
+        public static int Solve(int a, int b, int n)
         {
             int money = 0;
 

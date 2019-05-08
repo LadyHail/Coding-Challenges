@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Linq;
 
 namespace Main.Codility
 {
     public static class BinaryGap
     {
-        public static int binaryGap(int N)
+        public static int Solve(int N)
         {
             string n = Convert.ToString(N, 2);
 
