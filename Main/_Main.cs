@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Main.Codility;
 
 namespace Main
 {
@@ -7,7 +8,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-
+            PassingCars.Solve(new int[] { 1, 1 });
             Console.ReadKey();
         }
 
