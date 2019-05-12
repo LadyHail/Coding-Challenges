@@ -111,9 +111,12 @@
     <Compile Include="CodeFights\DepositProfit.cs" />
     <Compile Include="CodeFights\ExtractEachKth.cs" />
     <Compile Include="Codility\BinaryGap.cs" />
+    <Compile Include="Codility\CountDiv.cs" />
     <Compile Include="Codility\CyclicRotation.cs" />
+    <Compile Include="Codility\Distinct.cs" />
     <Compile Include="Codility\FrogJmp.cs" />
     <Compile Include="Codility\FrogRiverOne.cs" />
+    <Compile Include="Codility\GenomicRangeQuery.cs" />
     <Compile Include="Codility\MaxCounters.cs" />
     <Compile Include="Codility\MissingInteger.cs" />
     <Compile Include="Codility\OddOccurrencesInArray.cs" />

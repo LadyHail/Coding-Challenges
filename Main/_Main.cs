@@ -8,7 +8,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            PassingCars.Solve(new int[] { 1, 1 });
+            Distinct.Solve(new int[] { 2, 1, 1, 2, 3, 1 });
             Console.ReadKey();
         }
 
