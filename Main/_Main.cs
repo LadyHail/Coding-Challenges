@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using Main.Codility;
+using Main.Other.Hierarchy;
 
 namespace Main
 {
@@ -8,7 +8,9 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            Distinct.Solve(new int[] { 2, 1, 1, 2, 3, 1 });
+            Start s = new Start();
+            s.Solve();
+
             Console.ReadKey();
         }
 
