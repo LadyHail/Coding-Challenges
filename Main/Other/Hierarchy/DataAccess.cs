@@ -27,7 +27,7 @@ namespace Main.Other.Hierarchy
 
                 int id = int.Parse(line[0]);
                 int parentId = int.Parse(line[1]);
-                Person person = new Person(id, parentId, line[2], line[3]);
+                Person person = new Person(id, parentId, line[2], line[3], line[4]);
                 result.Add(person);
             }
 

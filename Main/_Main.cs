@@ -8,7 +8,7 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            Start s = new Start();
+            HierarchySolver s = new HierarchySolver();
             s.Solve();
 
             Console.ReadKey();

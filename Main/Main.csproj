@@ -128,7 +128,7 @@
     <Compile Include="Other\Hierarchy\Hierarchy.cs" />
     <Compile Include="Other\Hierarchy\Node.cs" />
     <Compile Include="Other\Hierarchy\Person.cs" />
-    <Compile Include="Other\Hierarchy\Start.cs" />
+    <Compile Include="Other\Hierarchy\HierarchySolver.cs" />
     <Compile Include="TestDome\BinaryTree.cs" />
     <Compile Include="TestDome\Song.cs" />
     <Compile Include="TestDome\TwoSum.cs" />
