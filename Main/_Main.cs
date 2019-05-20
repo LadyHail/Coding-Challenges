@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using Main.Other.Hierarchy;
+using Main.CodeFights;
 
 namespace Main
 {
@@ -8,8 +8,33 @@ namespace Main
     {
         private static void Main(string[] args)
         {
-            HierarchySolver s = new HierarchySolver();
-            s.Solve();
+            ListNode<int> a = new ListNode<int>
+            {
+                value = 1,
+                next = new ListNode<int>
+                {
+                    value = 1000000000,
+                    next = new ListNode<int>
+                    {
+                        value = -1000000000,
+                        next = new ListNode<int>
+                        {
+                            value = -1000000000,
+                            next = new ListNode<int>
+                            {
+                                value = 1000000000,
+                                next = new ListNode<int>
+                                {
+                                    value = 1,
+                                    next = null
+                                }
+                            }
+                        }
+                    }
+                }
+            };
+
+            IsListPalindrome.Solve(a);
 
             Console.ReadKey();
         }

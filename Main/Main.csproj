@@ -78,6 +78,7 @@
     <Compile Include="CodeFights\IncreaseNumberRoundness.cs" />
     <Compile Include="CodeFights\IsBeautifulString.cs" />
     <Compile Include="CodeFights\IsCryptSolution.cs" />
+    <Compile Include="CodeFights\IsListPalindrome.cs" />
     <Compile Include="CodeFights\IsMAC48Address.cs" />
     <Compile Include="CodeFights\IsPower.cs" />
     <Compile Include="CodeFights\IsSmooth.cs" />
